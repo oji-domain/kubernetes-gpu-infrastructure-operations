@@ -1,0 +1,10 @@
+Only use lab screenshots:
+
+01-cluster-nodes.png
+02-node-describe.png
+03-pod-status.png
+04-events.png
+05-grafana-lab-dashboard.png
+06-gpu-health-lab.png
+
+Never use screenshots from confidential employer systems.
