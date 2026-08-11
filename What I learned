@@ -1,0 +1,5 @@
+GPU infrastructure operations require systems thinking.
+
+The application, Kubernetes, Linux OS, scheduler, GPU hardware, high-speed networking, power, storage, and monitoring all participate in workload availability.
+
+Troubleshooting must therefore isolate the failed infrastructure layer before remediation begins.
