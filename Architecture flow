@@ -1,0 +1,43 @@
+ AI / ML Workload
+                        |
+                 Workload Scheduler
+                  LSF / Slurm
+                        |
+                    Kubernetes
+                        |
+            +-----------+-----------+
+            |                       |
+        GPU Node 01              GPU Node 02
+            |                       |
+          GPUs                    GPUs
+          DPUs                    DPUs
+            |                       |
+          NVLink                  NVLink
+            |                       |
+            +------ InfiniBand -----+
+                        |
+                    Storage
+                        |
+                   Monitoring
+                     Grafana
+
+Repository:
+
+kubernetes-gpu-infrastructure-operations/
+│
+├── README.md
+├── kubernetes/
+│   ├── node-health.md
+│   ├── pod-troubleshooting.md
+│   └── scheduling.md
+├── gpu-infrastructure/
+│   ├── gpu-node-checklist.md
+│   ├── nvlink-overview.md
+│   └── infiniband-overview.md
+├── hpc/
+│   ├── slurm.md
+│   └── lsf.md
+├── monitoring/
+├── incidents/
+├── architecture/
+└── screenshots/
