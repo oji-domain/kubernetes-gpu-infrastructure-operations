@@ -1,0 +1,16 @@
+AI workloads depend on multiple infrastructure layers.
+
+A GPU node can appear online while still being unsuitable for production workloads because of:
+
+GPU health
+Networking
+Fabric connectivity
+Kubernetes scheduling
+Node conditions
+Power
+Storage
+Workload scheduler
+Driver/runtime
+Hardware alarms
+
+The purpose of this repository is to document layered infrastructure troubleshooting.
