@@ -1,0 +1,43 @@
+Node Health Checklist
+kubectl get nodes
+
+Look for:
+
+Ready
+NotReady
+SchedulingDisabled
+
+Inspect node:
+
+kubectl describe node node01
+
+Review:
+
+Conditions
+Capacity
+Allocatable
+Taints
+Labels
+Events
+
+Then verify host health:
+
+uptime
+free -h
+df -h
+ip addr
+
+Where GPU utilities are available:
+
+nvidia-smi
+
+The objective is to determine whether the failure belongs to:
+
+Kubernetes
+Operating System
+GPU
+Networking
+Fabric
+Storage
+Scheduler
+Application
