@@ -1,0 +1,30 @@
+Use this decision tree:
+
+Workload Failed
+     |
+     +-- Pod issue?
+     |
+     +-- Scheduler issue?
+     |
+     +-- Node Ready?
+     |
+     +-- OS healthy?
+     |
+     +-- GPU healthy?
+     |
+     +-- Fabric healthy?
+     |
+     +-- Storage reachable?
+     |
+     +-- Network healthy?
+     |
+     +-- Monitoring showing hardware alarm?
+
+Useful Kubernetes commands:
+
+kubectl get pods -A
+kubectl describe pod POD
+kubectl logs POD
+kubectl get nodes
+kubectl describe node NODE
+kubectl get events -A
