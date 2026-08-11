@@ -1,0 +1,21 @@
+For portfolio labs, use a local or cloud Kubernetes environment rather than employer infrastructure.
+
+Verify cluster:
+
+kubectl cluster-info
+
+List nodes:
+
+kubectl get nodes -o wide
+
+Inspect node:
+
+kubectl describe node NODE-NAME
+
+List pods:
+
+kubectl get pods -A
+
+Check events:
+
+kubectl get events -A --sort-by=.metadata.creationTimestamp
