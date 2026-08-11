@@ -1,0 +1,31 @@
+NAME      STATUS   ROLES    AGE   VERSION
+node01    Ready    worker   10d   v1.x
+node02    Ready    worker   10d   v1.x
+
+Incident documentation example:
+
+Alert:
+GPU worker unavailable
+
+Kubernetes:
+Node NotReady
+
+Linux:
+Host reachable
+
+Disk:
+Normal
+
+Memory:
+Normal
+
+Network:
+Interface issue identified
+
+Action:
+Network condition corrected
+
+Validation:
+Node returned Ready
+Test workload scheduled successfully
+Monitoring alert cleared
